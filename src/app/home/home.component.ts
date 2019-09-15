@@ -18,5 +18,3 @@ export class HomeComponent implements OnInit {
 		}
 	}
 }
-
-//This is a comment
