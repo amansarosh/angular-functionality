@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+.my-header {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+:root {
+  font-family: Montserrat-SemiBold;
+  src: url(assets/Montserrat-SemiBold.otf) format("opentype");
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+body {
+    background-color: #222;
+}
+
+ a {
+  text-decoration: underline;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.backhome {
+    text-align: center;
+}
+
+.animalslistbutton {
+  margin: 20px;
+}
+
+
+.highlight {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #23d160;
+}
+
+.errortext {
+  text-align: center;
+  margin: 300px;
+  font-size: 32px;
+}
