@@ -9,10 +9,10 @@ import { ErrorComponent } from './error/error.component';
 import { AdminGuard } from './admin.guard';
 
 const routes: Routes = [
-	{ path: 'home', component: HomeComponent },
+	{ path: '', component: HomeComponent },
 	{ path: 'animals', component: AnimalsComponent },
 	{ path: 'defanimals', component: DefanimalsComponent },
-	{ path: 'cooldinos', component: CooldinosComponent, canActivate: [ AdminGuard ] },
+	{ path: 'cooldinos', component: CooldinosComponent, canActivate: [AdminGuard] },
 
 	//redirectTo
 	{ path: 'animalss', redirectTo: 'animals', pathMatch: 'full' },
@@ -22,7 +22,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-	imports: [ RouterModule.forRoot(routes) ],
-	exports: [ RouterModule ]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
